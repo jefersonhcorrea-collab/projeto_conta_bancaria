@@ -56,7 +56,7 @@ export class ContaController implements ContaRepository {
 
     }
     /*
-    // Sacar valor da conta
+    Sacar valor da conta
     sacar(numero: number, valor: number): void {
         const conta = this.listaContas.find(conta => conta.numero === numero);
         if (conta) {
@@ -66,7 +66,7 @@ export class ContaController implements ContaRepository {
         }
     }
 
-    //  Depositar valor na conta
+     Depositar valor na conta
     depositar(numero: number, valor: number): void {
         const conta = this.listaContas.find(conta => conta.numero === numero);
         if (conta) {
